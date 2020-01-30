@@ -10,28 +10,28 @@ import javafx.scene.image.Image;
 
 public class Person extends Application
 {	
-	private static final String LOC_SNAPBACK = "https://i.ibb.co/WHBPzCW/snapback.png";
-	//private static final String LOC_SNAPBACK = "person/snapback.png";
+	//private static final String LOC_SNAPBACK = "https://i.ibb.co/WHBPzCW/snapback.png";
+	private static final String LOC_SNAPBACK = "person/snapback.png";
 	final Image img_snapback = new Image(LOC_SNAPBACK);
 	
-	private static final String LOC_GIGS = "https://i.ibb.co/SR1FFMJ/gigs.png";
-	//private static final String LOC_GIGS = "person/gigs.png";  
+	//private static final String LOC_GIGS = "https://i.ibb.co/SR1FFMJ/gigs.png";
+	private static final String LOC_GIGS = "person/gigs.png";  
 	final Image img_gigs = new Image(LOC_GIGS);  
 	
-	private static final String LOC_BLING = "https://i.ibb.co/pdtc3sc/bling.png";
-	//private static final String LOC_BLING = "person/bling.png";
+	//private static final String LOC_BLING = "https://i.ibb.co/pdtc3sc/bling.png";
+	private static final String LOC_BLING = "person/bling.png";
 	final Image img_bling = new Image(LOC_BLING);  
 	
-	private static final String LOC_BELT = "https://i.ibb.co/zFs9sQs/belt.png";
-	//private static final String LOC_BELT = "person/belt.png";
+	//private static final String LOC_BELT = "https://i.ibb.co/zFs9sQs/belt.png";
+	private static final String LOC_BELT = "person/belt.png";
 	final Image img_belt = new Image(LOC_BELT);   
 	
-	private static final String LOC_L_SHOE = "https://i.ibb.co/2ttVzDt/left-shoe.png";
-	//private static final String LOC_L_SHOE = "person/left_shoe.png";
+	//private static final String LOC_L_SHOE = "https://i.ibb.co/2ttVzDt/left-shoe.png";
+	private static final String LOC_L_SHOE = "person/left_shoe.png";
 	final Image img_left_shoe = new Image(LOC_L_SHOE);  
 
-	private static final String LOC_R_SHOE = "https://i.ibb.co/SmwKwbC/right-shoe.png";
-	//private static final String LOC_R_SHOE = "person/right_shoe.png";
+	//private static final String LOC_R_SHOE = "https://i.ibb.co/SmwKwbC/right-shoe.png";
+	private static final String LOC_R_SHOE = "person/right_shoe.png";
 	final Image img_right_shoe = new Image(LOC_R_SHOE); 
 
 
@@ -151,7 +151,7 @@ public class Person extends Application
 		Gc.drawImage(img_left_shoe,206,490,42,65);
 
 		root.getChildren().add(canvas);
-		primaryStage.setTitle("Person JavafX");
+		primaryStage.setTitle("JavaFX is Super");
 		primaryStage.getIcons().add(new Image("https://i.ibb.co/vHcqZ0c/icon.png"));
 		primaryStage.setScene(scene);
 		primaryStage.show();
